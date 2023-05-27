@@ -1,0 +1,272 @@
+@media (max-width: 480px) {
+
+    body.lock {
+        overflow: hidden;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .header__menu-block {
+        display: none;
+    }
+
+    .main__border-row {
+        display: block;
+    }
+
+    .border__block-row {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .border__block {
+        width: 90%;
+        height: 150px;
+        margin: 0 auto;
+    }
+
+    .border__title {
+        line-height: 25px;
+    }
+
+    .border__subtitle {
+        line-height: 30px;
+    }
+
+    .main__design-block{
+        display: block;
+    }
+
+    .design__img-block{
+        width: 90%;
+        margin: 0 auto;
+        margin-right: 0;
+    }
+
+    .design__agensy{
+        bottom: 0%;
+        right: 0%;
+    }
+
+    .design__title-block{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .design__btn-block{
+        margin: 0 auto;
+    }
+
+
+    .main__start-block {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 52px;
+        margin-bottom: 44px;
+    }
+
+    .start__title {
+        padding: 30px 0px 28px 0px;
+    }
+
+    .start__btn-block {
+        width: 140px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .footer__first-block {
+        display: block;
+
+    }
+
+    .footer__title,
+    .footer__meseng__block {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .main__description-block {
+        display: block;
+    }
+
+    .description__title-block {
+        width: 100%;
+        text-align: center;
+    }
+
+     /* MAIN__BLOG */
+
+
+     .main__blog-block {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .blog__block{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .blog__block:nth-child(2){
+        order: 1;
+    }
+
+    .blog__block:nth-child(1){
+        order: 2;
+    }
+
+
+    .blog__title {
+        font-size: calc(10px + 50 * (100vw / 4000));
+    }
+
+    .blog__subtitle {
+        font-size: calc(8px + 35 * (100vw / 4000));
+    }
+
+    .blog__btn {
+        font-size: calc(10px + 30 * (100vw / 4000));
+    }
+
+    .blog__btn-block{
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+
+}
+
+
+
+@media (min-width: 480px) and (max-width: 1200px) {
+
+
+   
+
+    .main__start-block {
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 132px;
+        margin-bottom: 44px;
+    }
+
+    .start__btn-block {
+        width: 140px;
+        margin-left: 20px;
+    }
+
+    .second__block {
+        font-size: calc(5px + 40 * (100vw / 4000));
+    }
+
+    .description__subtitle {
+        font-size: calc(11px + 40 * (100vw / 4000));
+    }
+
+    .description__text {
+        font-size: calc(7px + 30 * (100vw / 4000));
+    }
+
+    .design__title-block{
+        width: 50%;
+    }
+
+    .design__agensy{
+        bottom: -40%;
+        right: -100%;
+    }
+
+    /* MAIN__BLOG */
+
+
+        .main__blog-block {
+            margin-top: 100px;
+        }
+    
+    
+        .blog__title {
+            font-size: calc(25px + 110 * (100vw / 4000));
+        }
+    
+        .blog__subtitle {
+            font-size: calc(8px + 25 * (100vw / 4000));
+        }
+    
+        .blog__btn {
+            font-size: calc(10px + 30 * (100vw / 4000));
+        }
+    
+        .blog__img {
+            width: 100%;
+        }
+
+}
+
+
+
+@media(min-width: 1200px) {
+
+
+    .border__title {
+        line-height: 95px;
+    }
+
+    .border__subtitle {
+        line-height: 65px;
+    }
+
+    .main__design-block{
+        margin-top: 320px;
+    }
+
+    .design__agensy{
+        bottom: 0%;
+        right: -70%;
+    }
+
+    .design__title-block{
+        margin-top: 40px;
+    }
+
+    .design__subtitle{
+        line-height: 40px;
+        padding-bottom: 40px;
+    }
+
+    .blog__btn-block, .start__btn-block, .design__btn-block{
+        width: 280px;
+    } 
+
+    .blog__subtitle {
+        line-height: 40px;
+        font-size: calc(8px + 25 * (100vw / 4000));
+    }
+    
+    .span__star-4{
+        position: absolute;
+        top: 82%;
+        left: 60%;
+    }
+    
+    .span__star-5{
+        position: absolute;
+        top: 81%;
+        left: 62%;
+    }
+    
+    .span__star-6{
+        position: absolute; 
+        top: 82%;
+        left: 64%;
+    }
+}
